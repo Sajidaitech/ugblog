@@ -1,0 +1,26 @@
+
+Run the following JavaScript code in the console to enable the input fields and button:
+
+javascript
+
+document.getElementById("meeting-date").disabled = false;
+document.getElementById("meeting-time").disabled = false;
+document.getElementById("meeting-ampm").disabled = false;
+document.getElementById("add-meeting-button").disabled = false;
+
+
+
+
+Disable Fields (Optional):
+
+If you want to disable the fields again after making changes, run this code:
+
+javascript
+Copy
+document.getElementById("meeting-date").disabled = true;
+document.getElementById("meeting-time").disabled = true;
+document.getElementById("meeting-ampm").disabled = true;
+document.getElementById("add-meeting-button").disabled = true;
+
+
+AIzaSyAkFdt_KpmazT8Jgs6piopY7QcRpAuJm0A
