@@ -136,6 +136,15 @@ nav {
 .nav-links a:hover::after {
     width: 100%;
 }
+.logo-container .name a {
+    color: inherit; /* This will inherit the text color from parent */
+    text-decoration: none; /* This removes the underline */
+}
+
+.logo-container .name a:hover {
+    text-decoration: none; /* Keeps the underline removed when hovering */
+    /* You could add a subtle hover effect here if desired */
+}
 
 /* About Section Styles - Elegant Design with Glassmorphism */
 .about-container {
